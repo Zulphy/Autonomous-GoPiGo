@@ -17,7 +17,7 @@ def directionFinder():
 
     #recenter servo
     servo.reset_servo()
-    sleep(0.5)
+    time.sleep(0.5)
     # create some logic that uses the distances found above and possibly
     # where the car has already been to make a decision on which
     # direction to point the car next.
